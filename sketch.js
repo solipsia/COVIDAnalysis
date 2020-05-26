@@ -46,6 +46,8 @@ function draw() {
 }
 
 function submit() {
+	div2.html('');
+	div.html('<table><tr><td></td><td></td></tr></table>');
 	country1loading.html('loading...');
 	country2loading.html('loading...');
 
