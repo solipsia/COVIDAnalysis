@@ -1,0 +1,18 @@
+<queryresult success="true" error="false" numpods="1" datatypes="Country" timedout="" timedoutpods="" timing="1.5170000000000001" parsetiming="0.519" parsetimedout="false" recalculate="" id="MSP70531bb2ficf5g2fcf1100000hi4h0igega13e7d" host="https://www5a.wolframalpha.com" server="42" related="https://www5a.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa70541bb2ficf5g2fcf11000012570aighf9h986h3773634836471742935" version="2.6">
+<pod title="Population by age and sex" scanner="Data" id="AgeDistributionGrid:AgeDistributionData" position="400" error="false" numsubpods="1">
+<subpod title="">
+<plaintext>
+age | male | female | all 0 to 4 | 2.84 million people | 2.735 million people | 5.575 million people 5 to 9 | 2.57 million people | 2.543 million people | 5.113 million people 10 to 14 | 2.859 million people | 2.425 million people | 5.283 million people 15 to 19 | 2.693 million people | 2.507 million people | 5.2 million people 20 to 24 | 2.745 million people | 2.612 million people | 5.356 million people 25 to 29 | 2.326 million people | 2.421 million people | 4.747 million people 30 to 34 | 1.759 million people | 1.947 million people | 3.706 million people 35 to 39 | 1.677 million people | 1.668 million people | 3.345 million people 40 to 44 | 1.55 million people | 1.473 million people | 3.022 million people 45 to 49 | 1.301 million people | 1.376 million people | 2.678 million people 50 to 54 | 942005 people | 1.201 million people | 2.143 million people 55 to 59 | 665313 people | 988613 people | 1.654 million people 60 to 64 | 413200 people | 778996 people | 1.192 million people 65 to 69 | 315204 people | 568028 people | 883232 people 70 to 74 | 285872 people | 437537 people | 723409 people 75 to 79 | 193624 people | 299201 people | 492825 people 80 to 84 | 152448 people | 242798 people | 395246 people 85 to 89 | 26645 people | 58100 people | 84745 people 90 to 94 | 7377 people | 15989 people | 23366 people 95 to 99 | 625 people | 3625 people | 4250 people 100+ | 53 people | 464 people | 517 people all | 25.32 million people | 26.3 million people | 51.62 million people (2010 estimates)
+</plaintext>
+</subpod>
+<expressiontypes count="1">
+<expressiontype name="Grid"/>
+</expressiontypes>
+<states count="1">
+<state name="Hide details" input="AgeDistributionGrid:AgeDistributionData__Hide details"/>
+</states>
+</pod>
+<sources count="1">
+<source url="https://www5a.wolframalpha.com/sources/CountryDataSourceInformationNotes.html" text="Country data"/>
+</sources>
+</queryresult>
