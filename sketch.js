@@ -42,6 +42,7 @@ function draw() {
 		calcData();
 		drawTable();
 		data1loaded=false;
+		data2loaded=false;
 	} 
 }
 
