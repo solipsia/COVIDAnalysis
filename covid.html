@@ -8,8 +8,29 @@ window.onload = function() {
     // any other code
 }
 </script>
+
+
+
+
+
+
 </head>
 <body>
 <iframe id=myframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSYh8tXNs-66WSOhSxCyxPQiO3XPLvl47nkf3ZF_HQdvyAqIENAdWUB_9SF_1AMvKDOeN0z-csYymzd/pubchart?oid=13303453&amp;format=image"></iframe>
+<div id="date" name=date></div>
+
+<script language="javascript">
+function formatAMPM() {
+var d = new Date(),
+    minutes = d.getMinutes().toString().length == 1 ? '0'+d.getMinutes() : d.getMinutes(),
+    hours = d.getHours().toString().length == 1 ? '0'+d.getHours() : d.getHours(),
+    ampm = d.getHours() >= 12 ? 'pm' : 'am',
+    months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],
+    days = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+return days[d.getDay()]+' '+months[d.getMonth()]+' '+d.getDate()+' '+d.getFullYear()+' '+hours+':'+minutes+ampm;
+}
+    var today = new Date;
+    document.getElementById('date').innerHTML= formatAMPM();
+</script>
 </body>
 </html>
